@@ -40,3 +40,10 @@ function randomFriend(){
         alert("No hay amigos para elegir");
     }
 }
+
+function resetGame(){
+    friends = [];
+    document.getElementById('resultado').innerHTML = '';
+    document.getElementById('listaAmigos').innerHTML = '';
+    console.log(friends);
+}

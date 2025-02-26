@@ -160,3 +160,26 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Botón reiniciar juego */
+
+.button-reset {
+
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-size: 16px;
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover {
+    background-color: #2e3f7f;
+}
+
