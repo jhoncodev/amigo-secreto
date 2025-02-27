@@ -11,7 +11,6 @@ function addFriend(){
     }else{
         friends.push(friendName);
         document.getElementById('amigo').value = '';
-        console.log(friends);
         updateListFriends(friends);
     }
 }
@@ -45,5 +44,4 @@ function resetGame(){
     friends = [];
     document.getElementById('resultado').innerHTML = '';
     document.getElementById('listaAmigos').innerHTML = '';
-    console.log(friends);
 }
